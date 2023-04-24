@@ -1,7 +1,7 @@
 import { renderWithProvider, screen } from 'testUtils'
 import Swap from '.'
 
-describe('Swap', () => {
+describe('DogecoinSwap, () => {
   it('should render', async () => {
     renderWithProvider(<Swap />, { preloadedState: { user: { isExchangeChartDisplayed: false } } })
     expect(
