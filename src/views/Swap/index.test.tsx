@@ -1,12 +1,12 @@
 import { renderWithProvider, screen } from 'testUtils'
 import Swap from '.'
 
-describe('DogecoinSwap, () => {
+describe('Swap, () => {
   it('should render', async () => {
     renderWithProvider(<Swap />, { preloadedState: { user: { isExchangeChartDisplayed: false } } })
     expect(
       screen.getByRole('heading', {
-        name: /swap/i,
+        name: /DogecoinSwap/i,
       }),
     ).toBeInTheDocument()
   })
