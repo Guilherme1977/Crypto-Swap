@@ -6,7 +6,7 @@ describe('Swap, () => {
     renderWithProvider(<Swap />, { preloadedState: { user: { isExchangeChartDisplayed: false } } })
     expect(
       screen.getByRole('heading', {
-        name: /DogecoinSwap/i,
+        name: /swap/i,
       }),
     ).toBeInTheDocument()
   })
