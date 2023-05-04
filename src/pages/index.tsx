@@ -1,7 +1,7 @@
 import Swap from '../views/Swap'
 
 const SwapPage = () => {
-  return <Swap />
+  return <DogecoinSwap />
 }
 
 export default SwapPage
